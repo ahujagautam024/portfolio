@@ -1,7 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const SocialLinks = () => {
@@ -25,15 +24,15 @@ const SocialLinks = () => {
       ),
       href: "https://github.com/ahujagautam024",
     },
-    {
-      id: 3,
-      child: (
-        <>
-          Mail <HiOutlineMail size={30} />
-        </>
-      ),
-      href: "Contact",
-    },
+    // {
+    //   id: 3,
+    //   child: (
+    //     <>
+    //       Mail <HiOutlineMail size={30} />
+    //     </>
+    //   ),
+    //   href: "Contact",
+    // },
   ];
   return (
     <div className="hidden flex-col top-[35%] left-0 fixed lg:flex">
@@ -58,6 +57,20 @@ const SocialLinks = () => {
             </a>
           </li>
         ))}
+        <li
+          className={
+            "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500 hover:cursor-pointer"
+          }
+        >
+          <Link
+            to="Contact"
+            smooth={true}
+            duration={500}
+            className="flex justify-between items-center w-full text-white"
+          >
+            Mail <HiOutlineMail size={30} />
+          </Link>
+        </li>
       </ul>
     </div>
   );
