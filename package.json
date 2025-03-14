@@ -12,13 +12,16 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "framer-motion": "^12.4.3",
     "primeicons": "^7.0.0",
     "primereact": "^10.9.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
     "react-scroll": "^1.9.0",
-    "react-type-animation": "^3.2.0"
+    "react-slick": "^0.30.3",
+    "react-type-animation": "^3.2.0",
+    "slick-carousel": "^1.8.1"
   },
   "homepage": "https://ahujagautam024.github.io/portfolio",
   "devDependencies": {

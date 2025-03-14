@@ -24,18 +24,18 @@ const SocialLinks = () => {
       ),
       href: "https://github.com/ahujagautam024",
     },
-    // {
-    //   id: 3,
-    //   child: (
-    //     <>
-    //       Mail <HiOutlineMail size={30} />
-    //     </>
-    //   ),
-    //   href: "Contact",
-    // },
+    {
+      id: 3,
+      child: (
+        <>
+          Mail <HiOutlineMail size={30} />
+        </>
+      ),
+      href: "gahuja@stevens.edu",
+    },
   ];
   return (
-    <div className="hidden flex-col top-[35%] left-0 fixed lg:flex">
+    <div className="hidden flex-col top-[35%] left-0 fixed lg:flex ">
       <ul>
         {links.map((link) => (
           <li
@@ -57,7 +57,7 @@ const SocialLinks = () => {
             </a>
           </li>
         ))}
-        <li
+        {/* <li
           className={
             "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500 hover:cursor-pointer"
           }
@@ -70,7 +70,7 @@ const SocialLinks = () => {
           >
             Mail <HiOutlineMail size={30} />
           </Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
