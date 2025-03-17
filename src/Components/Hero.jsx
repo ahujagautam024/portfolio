@@ -127,7 +127,7 @@ const Hero = () => {
                 Get in Touch
               </Link>
               <a
-                href="/portfolio/Gautam_Ahuja_Resume.pdf"
+                href="https://ahujagautam024.github.io/Resume//Gautam_Ahuja_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3 bg-gray-900 border-2 text-white border-gray-900 dark:text-gray-300 font-medium rounded-lg hover:bg-gray-800 transition-colors duration-300"
