@@ -24,7 +24,7 @@
     "react-type-animation": "^3.2.0",
     "slick-carousel": "^1.8.1"
   },
-  "homepage": "/",
+  "homepage": "https://www.gautamahuja.tech",
   "devDependencies": {
     "@eslint/js": "^9.17.0",
     "@types/react": "^18.3.18",
