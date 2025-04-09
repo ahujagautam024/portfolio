@@ -22,6 +22,7 @@ import {
   SiNumpy,
   SiJira,
   SiBlender,
+  SiTypescript,
 } from "react-icons/si";
 
 import { Link } from "react-scroll";
@@ -44,6 +45,7 @@ const Hero = () => {
     { icon: <SiMongodb />, name: "MongoDB", color: "text-green-500" },
     { icon: <FaDatabase />, name: "SQL", color: "text-gray-500" },
     { icon: <SiJavascript />, name: "JavaScript", color: "text-yellow-500" },
+    { icon: <SiTypescript />, name: "Typescript", color: "text-blue-500" },
     { icon: <FaUnity />, name: "Unity", color: "text-gray-500" },
     { icon: <FaPython />, name: "Python", color: "text-blue-500" },
     { icon: <FaGit />, name: "Git", color: "text-orange-500" },
